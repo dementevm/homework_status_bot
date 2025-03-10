@@ -35,7 +35,7 @@ def parse_homework_status(homework):
             return main()
         else:
             last_status = statuses[0]
-            return 'Ревьюер начала проверять работу'
+            return 'Ревьюер начал проверять работу'
     elif homework_status == statuses[1]:
         verdict = 'К сожалению в работе нашлись ошибки.'
         last_status = ''
